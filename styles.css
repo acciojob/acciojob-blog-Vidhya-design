@@ -1,10 +1,59 @@
 /*  your css code here. If applicable */
-h1 {
+body {
+      font-family: Arial, sans-serif;
       margin: 0;
-      padding: 20px;
-      font-family: "Times New Roman", Times, serif, monospace;
-      text-align: center;
+      padding: 0;
+      background-color: #fafafa;
+      color: #333;
     }
-img{
-height:200px
-}
+
+    marquee h1 {
+      color: #2c3e50;
+      margin: 20px 0;
+    }
+
+    h1, h2 {
+      margin: 10px 0;
+    }
+
+    a {
+      text-decoration: none;
+      color: #2c3eeb;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .container {
+      width: 80%;
+      margin: auto;
+      padding: 20px;
+    }
+
+    .article {
+      background: white;
+      margin: 20px 0;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+
+    .article img {
+      width: 100%;
+      max-width: 600px;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 6px;
+    }
+
+    .article h2 {
+      margin-top: 15px;
+      font-size: 20px;
+    }
+
+    .article p {
+      margin-top: 10px;
+      line-height: 1.6;
+      color: #555;
+    }
