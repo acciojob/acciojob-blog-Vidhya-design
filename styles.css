@@ -1,1 +1,10 @@
 /*  your css code here. If applicable */
+h1 {
+      margin: 0;
+      padding: 20px;
+      font-family: "Times New Roman", Times, serif, monospace;
+      text-align: center;
+    }
+img{
+height:200px
+}
